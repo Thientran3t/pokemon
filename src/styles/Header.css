@@ -1,0 +1,17 @@
+.header {
+    background-color: rgb(49, 49, 49);
+    color: rgb(212, 212, 212);
+}
+.flex-header {
+    display: flex;
+    text-align: left;
+    padding: 20px;
+}
+.text-search {
+    background-color: rgb(77, 173, 91);
+    padding: 10px;
+}
+.btn-search {
+    background-color: rgb(238, 107, 47);
+    margin-left: 5px;
+}
