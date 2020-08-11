@@ -10,8 +10,16 @@
 .text-search {
     background-color: rgb(77, 173, 91);
     padding: 10px;
+    flex: 1;
 }
 .btn-search {
     background-color: rgb(238, 107, 47);
     margin-left: 5px;
+}
+.search {
+    flex: 1;
+}
+.input-search {
+    width: 60%;
+    height: 30px;
 }
