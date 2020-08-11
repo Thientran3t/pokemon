@@ -1,4 +1,32 @@
-.Fire {
+.fire {
     background: rgb(155, 205, 79);
     color: #ffffff;
+}
+.poison {
+    background: rgb(185, 127, 201);
+    color: black;
+}
+.electric {
+    background: rgb(239, 214, 52);
+    color: black;
+}
+.normal {
+    background: rgb(165, 172, 176);
+    color: black;
+}
+.grass {
+    background: rgb(156, 205, 79);
+    color: white;
+}
+.bug {
+    background: rgb(113, 158, 62);
+    color: white;
+}
+.flying {
+    background: rgb(59, 200, 239);
+    color: black;
+}
+
+.border {
+    border-radius: 5px;
 }
