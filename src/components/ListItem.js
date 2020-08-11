@@ -64,6 +64,7 @@ const useStyles = makeStyles((theme) => ({
     square: {
         height: width,
         width: width,
+        background: '#F2F2F2'
     },
     textLeftNumber: {
         textAlign: 'left',
