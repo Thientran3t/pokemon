@@ -47,19 +47,23 @@ const capitalizeFirstLetter = (string) => {
     return string[0].toUpperCase() + string.slice(1);
 }
 
+const width = (window.innerWidth - 40) / 5;
+const height = width * 1.3;
+
 const useStyles = makeStyles((theme) => ({
     root: {
       flexGrow: 1,
     },
     paper: {
-      width: 200,
+      width: width,
+      height: height
     },
     control: {
       padding: theme.spacing(2),
     },
     square: {
-        height: 200,
-        width: 200,
+        height: width,
+        width: width,
     },
     textLeftNumber: {
         textAlign: 'left',

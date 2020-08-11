@@ -1,5 +1,4 @@
-// export const urlGet = 'https://www.pokemon.com/us/api/pokedex/kalos';
-export const urlGet = 'http://localhost:8080/api/pokemon/all';
+export const urlGet = 'https://www.pokemon.com/us/api/pokedex/kalos';
 export const method = {
     GET: 'GET',
     POST: 'POST'

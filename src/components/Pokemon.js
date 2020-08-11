@@ -7,7 +7,7 @@ import * as Constants from '../utils/Constants';
 
 const Pokemon = () => {
     const [data, setData] = useState(null);
-    const [size, setSize] = useState(12);
+    const [size, setSize] = useState(8);
     useEffect(() => {
         getData();
             

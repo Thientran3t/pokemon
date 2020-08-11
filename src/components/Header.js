@@ -15,7 +15,11 @@ const Header = (props) => {
                 <div className='search'>
                     <span>{Constants.nameOrNumber}</span>
                     <div>
-                        <input className='input-search' onChange={(e) => setKeyword(e.target.value)}/>
+                        <input className='input-search' onChange={(e) => setKeyword(e.target.value)} onKeyPress={(e) => {
+                            if (e.key === 'Enter') {
+                                props.onSearch(keyword);
+                            }
+                        }}/>
                         <Button style={{background: 'rgb(238, 107, 47)', marginLeft: 5}} variant="contained" color='primary' onClick={onSearch}>
                             <SearchIcon />
                         </Button>
